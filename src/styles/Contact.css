@@ -14,13 +14,15 @@
   background: linear-gradient(135deg, rgba(74, 144, 226, 0.05), rgba(0, 0, 0, 0.95));
   z-index: 1;
 }
-
+.center-heading {
+  text-align: center;
+}
 .contact-container {
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
   z-index: 2;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .contact-container h2 {
@@ -61,11 +63,10 @@
   display: flex;
   align-items: center;
   gap: 1.5rem;
-  padding: 1.5rem;
+  padding: 2.1rem;
   background: rgba(34, 34, 34, 0.8);
   border-radius: 15px;
   transition: all 0.3s ease;
-  text-align: left;
 }
 
 .contact-method:hover {
@@ -109,14 +110,15 @@
 
 .social-section {
   background: rgba(34, 34, 34, 0.8);
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 15px;
   text-align: left;
+  height: fit-content;
 }
 
 .social-section h3 {
   color: #ffffff;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
 }
 
@@ -127,20 +129,29 @@
 }
 
 .social-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   color: #ffffff;
   text-decoration: none;
   padding: 1rem;
   background: rgba(74, 144, 226, 0.1);
   border-radius: 10px;
   transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
 }
 
 .social-link:hover {
   background: rgba(74, 144, 226, 0.2);
   transform: translateX(5px);
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.social-link span {
+  font-size: 0.9rem;
 }
 
 @media screen and (max-width: 768px) {

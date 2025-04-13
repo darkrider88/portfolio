@@ -4,9 +4,9 @@ import '../styles/Contact.css';
 const Contact = () => {
   return (
     <section className="contact-section" id="contact">
-      <div className="contact-container">
-        <h2>Get In Touch</h2>
-        <p className="contact-description">
+      <div className="contact-container ">
+        <h2 className='center-heading'>Get In Touch</h2>
+        <p className="contact-description center-heading">
           As a full-stack software engineer, I bring expertise in both frontend and backend development. Let's collaborate on creating innovative solutions and building exceptional digital experiences together.
         </p>
         <div className="contact-content">
@@ -38,6 +38,10 @@ const Contact = () => {
               <a href="https://github.com/darkrider88" target="_blank" rel="noopener noreferrer" className="social-link">
                 <img src="/assets/github-icon.svg" alt="GitHub" className="social-icon" />
                 <span>GitHub</span>
+              </a>
+              <a href="https://medium.com/@darkrider88" target="_blank" rel="noopener noreferrer" className="social-link">
+                <img src="/assets/blog-icon.svg" alt="Blog" className="social-icon" />
+                <span>Blog</span>
               </a>
             </div>
           </div>
