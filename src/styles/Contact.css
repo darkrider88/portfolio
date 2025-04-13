@@ -59,7 +59,7 @@
 
 .contact-method {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 1.5rem;
   padding: 1.5rem;
   background: rgba(34, 34, 34, 0.8);
@@ -74,12 +74,16 @@
 }
 
 .method-icon {
-  font-size: 2rem;
-  background: linear-gradient(45deg, #4a90e2, #357abd);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s ease;
+  filter: brightness(1);
+  display: flex;
+  align-items: center;
+}
+
+.contact-method:hover .method-icon {
+  filter: brightness(1.2);
 }
 
 .method-info h3 {
