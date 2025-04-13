@@ -32,10 +32,12 @@ const Contact = () => {
             <h3>Connect With Me</h3>
             <div className="social-icons">
               <a href="https://www.linkedin.com/in/shashwat88/" target="_blank" rel="noopener noreferrer" className="social-link">
-                <span className="social-icon">LinkedIn</span>
+                <img src="/assets/linkedin-icon.svg" alt="LinkedIn" className="social-icon" />
+                <span>LinkedIn</span>
               </a>
               <a href="https://github.com/darkrider88" target="_blank" rel="noopener noreferrer" className="social-link">
-                <span className="social-icon">GitHub</span>
+                <img src="/assets/github-icon.svg" alt="GitHub" className="social-icon" />
+                <span>GitHub</span>
               </a>
             </div>
           </div>

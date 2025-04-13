@@ -12,18 +12,17 @@ const About = () => {
         <div className="about-content">
           <h2>About Me</h2>
           <p className="about-description">
-            I am a passionate developer with a strong focus on creating beautiful and functional web applications.
-            With expertise in modern web technologies, I strive to deliver exceptional user experiences.
+          I am a Computer Science and Engineering graduate with a specialization in cybersecurity, holding certifications like eJPT and eWPT. With a strong foundation in penetration testing, web application security, and ethical hacking. I have also experience in full stack development building efficient and scalable systems. Beyond tech, I enjoy playing the flute, watching a wide range of movies, and constantly exploring new topics out of sheer curiosity. My blend of technical expertise and an eagerness to learn makes me a dynamic and well-rounded contributor to any team or project.
           </p>
           <div className="skills">
-            <h3>Skills</h3>
+            <h3>Tit Bits</h3>
             <div className="skill-tags">
-              <span className="skill-tag">React</span>
-              <span className="skill-tag">JavaScript</span>
-              <span className="skill-tag">HTML/CSS</span>
-              <span className="skill-tag">Node.js</span>
-              <span className="skill-tag">Git</span>
-              <span className="skill-tag">UI/UX</span>
+              <span className="skill-tag">Programming</span>
+              <span className="skill-tag">Music</span>
+              <span className="skill-tag">Movies</span>
+              <span className="skill-tag">Travel</span>
+              <span className="skill-tag">Sprituality</span>
+              <span className="skill-tag">Learning</span>
             </div>
           </div>
         </div>
